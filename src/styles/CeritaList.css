@@ -1,0 +1,25 @@
+.cerita-list {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.cerita-item {
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+  transition: background 0.2s;
+}
+
+.cerita-item:hover {
+  background: #f5f5f5;
+}
+
+.cerita-date {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.cerita-content {
+  margin-top: 8px;
+  white-space: pre-line;
+}
